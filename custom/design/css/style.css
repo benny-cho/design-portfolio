@@ -1119,7 +1119,7 @@ main
     max-height: 900px;
     margin: 0 0 0 auto;
 
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
 }
 .hp-banner-image.loaded
 {
@@ -1306,7 +1306,7 @@ body.hold
     width: 100vw;
     height: 0;
 
-    transition: all 1.5s ease-in-out;
+    transition: all 1.75s ease-in-out;
     pointer-events: none;
 
     background-color: rgba(0, 0, 0, .5);
@@ -1516,7 +1516,7 @@ nav
     width: 100vw;
     height: 0;
 
-    transition: height .25s ease-in-out, background-color .25s ease-in-out;
+    transition: height .5s ease-in-out, background-color .25s ease-in-out;
 
     background-color: rgba(0, 0, 0, .45);
 
