@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     animationElements.forEach(function (element) {
         new ScrollMagic.Scene({
             triggerElement: element,
-            triggerHook: 0.75,
+            triggerHook: 0.88,
             reverse: true
         })
         .setClassToggle(element, "is-visible")
