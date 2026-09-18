@@ -498,28 +498,34 @@ main
 {
     .about-me-text
     {
-        padding: 0 50px 0 0;
+        padding: 30px 40px 0 40px;
     }
 }
 @media (max-width: 991px)
 {
     .about-me-text
     {
-        padding: 0 30px 0 0;
+        padding: 30px 30px 0;
+
+        transform: none;
     }
 }
 @media (max-width: 767px)
 {
     .about-me-text
     {
-        padding: 0 15px 0 0;
+        padding: 30px 15px 0;
+
+        transform: none;
     }
 }
 @media (max-width: 575px)
 {
     .about-me-text
     {
-        padding: 0;
+        padding: 30px 5px 0;
+
+        transform: none;
     }
 }
 .about-me-text.is-visible
@@ -602,6 +608,13 @@ main
         opacity: 0;
     }
 }
+@media (max-width: 767px)
+{
+    .about-me-images .img-1
+    {
+        height: 30vh;
+    }
+}
 .about-me-images .img-1.is-visible
 {
     top: 0;
@@ -624,6 +637,13 @@ main
     transition: all 1s ease-in-out;
 
     opacity: 0;
+}
+@media (max-width: 767px)
+{
+    .about-me-images .img-2
+    {
+        height: 30vh;
+    }
 }
 .about-me-images .img-2.is-visible
 {
@@ -648,6 +668,13 @@ main
 
     opacity: 0;
 }
+@media (max-width: 767px)
+{
+    .about-me-images .img-3
+    {
+        height: 30vh;
+    }
+}
 .about-me-images .img-3.is-visible
 {
     top: 0;
@@ -670,6 +697,13 @@ main
     transition: all 1s ease-in-out;
 
     opacity: 0;
+}
+@media (max-width: 767px)
+{
+    .about-me-images .img-4
+    {
+        height: 30vh;
+    }
 }
 .about-me-images .img-4.is-visible
 {
@@ -694,6 +728,13 @@ main
 
     opacity: 0;
 }
+@media (max-width: 767px)
+{
+    .about-me-images .img-5
+    {
+        height: 30vh;
+    }
+}
 .about-me-images .img-5.is-visible
 {
     top: 0;
@@ -716,6 +757,13 @@ main
     transition: all 1s ease-in-out;
 
     opacity: 0;
+}
+@media (max-width: 767px)
+{
+    .about-me-images .img-6
+    {
+        height: 30vh;
+    }
 }
 .about-me-images .img-6.is-visible
 {
@@ -752,21 +800,21 @@ main
 {
     .recent-work
     {
-        padding: 150px 15px 50px;
+        padding: 75px 15px 50px;
     }
 }
 @media (max-width: 767px)
 {
     .recent-work
     {
-        padding: 150px 5px 50px;
+        padding: 50px 5px 50px;
     }
 }
 @media (max-width: 575px)
 {
     .recent-work
     {
-        padding: 150px 0 50px;
+        padding: 50px 0;
     }
 }
 .recent-work-header
@@ -779,6 +827,13 @@ main
     transform: translateY(15px);
 
     opacity: 0;
+}
+@media (max-width: 575px)
+{
+    .recent-work-header
+    {
+        padding: 0 0 30px;
+    }
 }
 .recent-work-header span.h4 span
 {
@@ -1659,7 +1714,7 @@ nav ul li
 {
     nav ul li
     {
-        padding: 0 20px;
+        padding: 0 18px;
     }
 }
 nav ul li.active a,
