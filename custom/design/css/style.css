@@ -597,7 +597,6 @@ main
         top: 30px;
         left: 0;
 
-        height: 40vw;
         max-height: 500px;
 
         opacity: 0;
@@ -1655,6 +1654,13 @@ nav ul li
     padding: 0 25px;
 
     text-transform: uppercase;
+}
+@media (max-width: 575px)
+{
+    nav ul li
+    {
+        padding: 0 20px;
+    }
 }
 nav ul li.active a,
 nav ul li.active a:visited
